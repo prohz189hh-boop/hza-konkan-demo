@@ -19,6 +19,14 @@ HZA KONKAN is a native multiplayer tile game being built with Unreal Engine, Sup
 
 The private production project includes the full Unreal map/content, native plugin, backend infrastructure, Blender workflow, cloud configuration, and ongoing gameplay systems. This public demo is designed to show the engineering without exposing production credentials or private infrastructure.
 
+### Cultural context
+
+Konkan is a tile game with deep roots in Kurdish social life. HZA KONKAN is an owner-directed attempt to build a modern Kurdish-first digital experience, with Sorani and Badini localization planned alongside Arabic and English. The public rules package is a small, practical way for other developers to study deterministic multiplayer game logic while the culturally specific product and production systems remain protected.
+
+### What is open source here?
+
+The reusable rules package in [`packages/konkan-rules/`](packages/konkan-rules/) is released under MIT. It contains deterministic tile/rule logic, bot decisions over redacted views, modes, rack ordering, tests, and rules documentation. The rest of this repository is a reserved showcase under [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md), including the Unreal source, backend integrations, screenshots, branding, Blender workflow, and deployment details.
+
 ## Current project screenshots
 
 ### Native Unreal lobby
@@ -105,6 +113,7 @@ An optional local Worker integration suite is documented in [TESTING.md](TESTING
 
 ```text
 .
+├── packages/konkan-rules/ MIT-licensed reusable rules package
 ├── selected-source/      Sanitized real source selections
 │   ├── backend/
 │   ├── blender/
@@ -168,6 +177,10 @@ See [AI-DEVELOPMENT.md](AI-DEVELOPMENT.md).
 - Voice, performance/VRAM pass, Windows/Android packaging, iOS preparation
 
 See [PROJECT-ROADMAP.md](PROJECT-ROADMAP.md).
+
+## Contributing
+
+Contributions are currently scoped to the MIT-licensed rules package and documentation. See [CONTRIBUTING.md](CONTRIBUTING.md), the [Code of Conduct](CODE_OF_CONDUCT.md), and the issue templates before opening a change.
 
 ## Security and privacy
 

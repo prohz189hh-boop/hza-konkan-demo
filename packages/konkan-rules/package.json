@@ -1,0 +1,11 @@
+{
+  "name": "@hza-konkan/konkan-rules",
+  "version": "0.1.0",
+  "description": "Deterministic TypeScript rules core for the HZA KONKAN tile game",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/engine.test.ts"
+  }
+}

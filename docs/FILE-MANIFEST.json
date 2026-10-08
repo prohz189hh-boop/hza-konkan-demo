@@ -5,9 +5,24 @@
     "sha256": "d12584f5e7b491e5c56ef867d2348ae2c694cfd9630e563aa1e8d06f67150b59"
   },
   {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+    "bytes": 389,
+    "sha256": "ef653278140f867aa9d06073125a613e4f1c788606190df7e8dfc733fb672133"
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+    "bytes": 370,
+    "sha256": "3004743325532ec7f24ce681dab1da87b55d4abae66d535e5fc54a6bd1559fc5"
+  },
+  {
+    "path": ".github/PULL_REQUEST_TEMPLATE.md",
+    "bytes": 554,
+    "sha256": "3eccec95ac406b2e118085b151bf0396e8d3c93832f4622deaa3b0ee8a06e5b6"
+  },
+  {
     "path": ".github/workflows/demo-tests.yml",
-    "bytes": 452,
-    "sha256": "ebc4130c061d84bb932896d70de507ffdf1c1cc66a9d86d068a7604b86151266"
+    "bytes": 566,
+    "sha256": "92f5cdb01d4be241c16430b4abd8c8f3af8af12f49bbad3a8f8fa4db9b9b3993"
   },
   {
     "path": ".gitignore",
@@ -30,9 +45,14 @@
     "sha256": "1e639571d4fa8180b843d8ca0b19ac325b58d285c3dfd139b457a45aa8e3576e"
   },
   {
+    "path": "CODE_OF_CONDUCT.md",
+    "bytes": 705,
+    "sha256": "2ad5a052d8d35f74f49c9f304179cb35db5ec7f880a5b82c21658580ba0a9faa"
+  },
+  {
     "path": "CONTRIBUTING.md",
-    "bytes": 610,
-    "sha256": "01a67949d60a8e7070cf9163932f55fc3ad9070e15757ba5cdb280e938a3e459"
+    "bytes": 1354,
+    "sha256": "78fcd0d25593ff7e476f278d30bba9412218c0c22e84289421ee074e3a8dc202"
   },
   {
     "path": "docs/BACKEND-PROTOCOL.md",
@@ -51,13 +71,63 @@
   },
   {
     "path": "LICENSE-NOTICE.md",
-    "bytes": 939,
-    "sha256": "8f51933fdad6b0e15f4f186ecdfc4c2b246fbc9c663c0bb48c56213dd43eee71"
+    "bytes": 1524,
+    "sha256": "3b83cc9361e436b02203b990e319d13d1e1397c3234bb3831355b1e3f9005e2d"
+  },
+  {
+    "path": "OPENAI-APPLICATION.md",
+    "bytes": 2110,
+    "sha256": "10cf7c15bfd04040b51a8dbe7730b5d207c5c85ff4b1d17e31cdc719db82da45"
   },
   {
     "path": "package.json",
     "bytes": 478,
     "sha256": "f6c96f44805bfa7528ccd8bde9ec323158911e5267fe91597b67e8ebf289a199"
+  },
+  {
+    "path": "packages/konkan-rules/LICENSE",
+    "bytes": 1081,
+    "sha256": "7a04822b9ce874a4d287083b3ed4e7e1de0ad73179e372c8a2eb4c4582289e0c"
+  },
+  {
+    "path": "packages/konkan-rules/package.json",
+    "bytes": 339,
+    "sha256": "c740d3e5fafd67da898d9bbfdf504ff14c4cdb8a3495b21b1197692706e2d4fd"
+  },
+  {
+    "path": "packages/konkan-rules/README.md",
+    "bytes": 845,
+    "sha256": "3ccc4f827eba6eb8293c5121007ff82ea95fb615c83178dce6eb9775c6797c17"
+  },
+  {
+    "path": "packages/konkan-rules/RULES.md",
+    "bytes": 718,
+    "sha256": "1e273a305fb13bf81be147cfb84adb7c65af3e796aec35876c865f4482fca947"
+  },
+  {
+    "path": "packages/konkan-rules/src/bots.ts",
+    "bytes": 2580,
+    "sha256": "80bffb9073214d0417a799b8800ab3b389b26193a7865abeb22b9a4c62843ac7"
+  },
+  {
+    "path": "packages/konkan-rules/src/engine.ts",
+    "bytes": 19321,
+    "sha256": "e34056951513b0cab29374889a3cc796ac20372486a9f01af67c565fc0c094ef"
+  },
+  {
+    "path": "packages/konkan-rules/src/modes.ts",
+    "bytes": 526,
+    "sha256": "2729f24701dab8a7ffd6f74342203ec456be9451657034d8ff14e7d49f46084b"
+  },
+  {
+    "path": "packages/konkan-rules/src/rack.ts",
+    "bytes": 698,
+    "sha256": "b29de8ecb4b7530a21edd20f2e85f4604b83f10071ab34fb53bf9b6d0e285b1f"
+  },
+  {
+    "path": "packages/konkan-rules/tests/engine.test.ts",
+    "bytes": 7355,
+    "sha256": "0d7e45141957342ac007d987a49f41f72b8cb5fda296b69d1717046a29faf5ce"
   },
   {
     "path": "PROJECT-ROADMAP.md",
@@ -66,8 +136,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 9046,
-    "sha256": "ca32e1d1e8e40a262986356ddf2868de68d3aca693b794118a07abe84b89fa41"
+    "bytes": 10215,
+    "sha256": "6580e733e7f44deb24e83f6f2446e9af1e97818455933b6a96707663dbb294fc"
   },
   {
     "path": "screenshots/native-lobby-historical.png",

@@ -9,3 +9,5 @@ Windows native session restoration uses the OS credential vault. No equivalent v
 The authoritative backend authenticates users, validates membership and legal actions, and sends recipient-specific snapshots. Economy, purchases, entitlements and daily claims must remain server-authoritative. Production authorization, concurrency and device gates remain part of the release checklist.
 
 Before publishing modifications, repeat the included scan, review every added screenshot, and inspect Git history. The scan is a concrete pattern/identifier check, not a guarantee against every possible secret format. Report security concerns privately to the repository owner; never post tokens publicly.
+
+The MIT-licensed rules package is intentionally dependency-free and does not contain authentication, persistence, network transport, service credentials, or production endpoints. Security reports for that package should include a minimal reproducible test without confidential data. The rest of the repository remains reserved and should not be treated as an invitation to deploy the selected backend source.
