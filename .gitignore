@@ -1,0 +1,27 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+.dev.vars*
+# Generated output
+node_modules/
+.sites-runtime/
+.wrangler/
+.next/
+dist/
+build/
+coverage/
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.log
+*.tmp
+*.blend1
+.DS_Store

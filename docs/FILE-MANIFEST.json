@@ -1,0 +1,347 @@
+[
+  {
+    "path": ".env.example",
+    "bytes": 159,
+    "sha256": "d12584f5e7b491e5c56ef867d2348ae2c694cfd9630e563aa1e8d06f67150b59"
+  },
+  {
+    "path": ".github/workflows/demo-tests.yml",
+    "bytes": 452,
+    "sha256": "ebc4130c061d84bb932896d70de507ffdf1c1cc66a9d86d068a7604b86151266"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 317,
+    "sha256": "b1e08deeae1340818f926ba3eeaad1ec286640c38809ddeaa5cf6c882b84dc0d"
+  },
+  {
+    "path": "AI-DEVELOPMENT.md",
+    "bytes": 1406,
+    "sha256": "76aa443070b55f2379b8fd0a0ef7d9328498bb259c87d2b03ee02965c88a1779"
+  },
+  {
+    "path": "ARCHITECTURE.md",
+    "bytes": 1370,
+    "sha256": "d30ffbec4dd7790f7338b9a643181875d33ca3dedce7c01404adee08a9a15861"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 610,
+    "sha256": "01a67949d60a8e7070cf9163932f55fc3ad9070e15757ba5cdb280e938a3e459"
+  },
+  {
+    "path": "LICENSE-NOTICE.md",
+    "bytes": 939,
+    "sha256": "8f51933fdad6b0e15f4f186ecdfc4c2b246fbc9c663c0bb48c56213dd43eee71"
+  },
+  {
+    "path": "PROJECT-ROADMAP.md",
+    "bytes": 1877,
+    "sha256": "7e676d77bf357bdf8d8962e2fb1f00a07ba4a892a416c5b1d5c7d30de8742962"
+  },
+  {
+    "path": "README.md",
+    "bytes": 9046,
+    "sha256": "ca32e1d1e8e40a262986356ddf2868de68d3aca693b794118a07abe84b89fa41"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 1529,
+    "sha256": "98cb7973edb68037de36a789b916f1e30c1674d526e78026b6552a4bcf13aa63"
+  },
+  {
+    "path": "TECH-STACK.md",
+    "bytes": 829,
+    "sha256": "c00c5d002c596aff364034b42cd7b90405d9bfb22b0a20b0c102fee29edf2cf6"
+  },
+  {
+    "path": "TESTING.md",
+    "bytes": 1904,
+    "sha256": "2c4133190089a30602719cd0315ca31f35858f3e5575b9f0ee63cfbf34562f50"
+  },
+  {
+    "path": "assets-preview/README.md",
+    "bytes": 393,
+    "sha256": "1e639571d4fa8180b843d8ca0b19ac325b58d285c3dfd139b457a45aa8e3576e"
+  },
+  {
+    "path": "docs/BACKEND-PROTOCOL.md",
+    "bytes": 4029,
+    "sha256": "8bc40b0f8e64c1f1924a0725195c4633cfe6adebc76d0ac6b4ff0bc3a0bfbc43"
+  },
+  {
+    "path": "docs/DEMO-TEST-RESULTS.txt",
+    "bytes": 212,
+    "sha256": "0675f49f585479e35e201ed350e718eb5f504f028e2a7894579124d7bf2377d0"
+  },
+  {
+    "path": "docs/SOURCE-MANIFEST.md",
+    "bytes": 1479,
+    "sha256": "ce9170a3702b2aac7e3de3b9623f6e68d20ee17a63b59ef2d54d67b3be7d67f3"
+  },
+  {
+    "path": "package.json",
+    "bytes": 478,
+    "sha256": "f6c96f44805bfa7528ccd8bde9ec323158911e5267fe91597b67e8ebf289a199"
+  },
+  {
+    "path": "screenshots/README.md",
+    "bytes": 690,
+    "sha256": "66ee45bf226b295eec3ec5a10e6904fbb6432f2603d9ffa18d41ede3b2bd65e3"
+  },
+  {
+    "path": "screenshots/native-lobby-historical.png",
+    "bytes": 1606828,
+    "sha256": "24003bda11ac23259525eaf57cdb59f75f6199e0dc455f7733a15383a9b9c720"
+  },
+  {
+    "path": "screenshots/unreal-viewport.png",
+    "bytes": 1052113,
+    "sha256": "bd4ee8f1bb663c27f637f805dc111c905a5edbea06a7937ece22eea7101e5a35"
+  },
+  {
+    "path": "selected-source/backend/auth-confirmation.ts",
+    "bytes": 2468,
+    "sha256": "8e70d2b9bd5e24eee173694ec285d2a572ca5581d3112fb24c2182be29d42449"
+  },
+  {
+    "path": "selected-source/backend/auth.ts",
+    "bytes": 2442,
+    "sha256": "d59b20493a230a0edcff24fe9fe80708ca648a646c89b1dbe5ce117566230245"
+  },
+  {
+    "path": "selected-source/backend/match-result.ts",
+    "bytes": 302,
+    "sha256": "4d14ab9aefb9732ce4e3ac9749d7c567defc96ecf0f4682d962b29c8530b4765"
+  },
+  {
+    "path": "selected-source/backend/matchmaker.ts",
+    "bytes": 6820,
+    "sha256": "1ee509fbd548b3e05063bb6188c3157b5e6f1067d7f83d1a3b774e228fea3578"
+  },
+  {
+    "path": "selected-source/backend/room.ts",
+    "bytes": 11310,
+    "sha256": "efc9871501b6f871f0342a9b9672b9b0f58e67139c520f6492308969dadfbe66"
+  },
+  {
+    "path": "selected-source/backend/supabase.ts",
+    "bytes": 4470,
+    "sha256": "883059c9537f4aecba96804431a4fef1566f32a996a25e2929f586afae64e5b6"
+  },
+  {
+    "path": "selected-source/backend/voice.ts",
+    "bytes": 1158,
+    "sha256": "f0a023d95587507c8bc87be805e5373e61cd2cf533b1e216957f3b32f4f195cf"
+  },
+  {
+    "path": "selected-source/backend/worker.ts",
+    "bytes": 15134,
+    "sha256": "2422c1e024650bb7d28d4e968572c6d4493a4747745e8a1c62ca953d68d4f345"
+  },
+  {
+    "path": "selected-source/blender/build_rack_historical.py",
+    "bytes": 6405,
+    "sha256": "49fb91cb9d53d571c502840ad2a52496500c0a5e35eb862b8fb5818e276364ed"
+  },
+  {
+    "path": "selected-source/lib/game/arcade.ts",
+    "bytes": 7505,
+    "sha256": "aa2653d73e0ff8c4b8cd92b258cc46b4d9f1f8ba0928bfa774928850e7e4defa"
+  },
+  {
+    "path": "selected-source/lib/game/bots.ts",
+    "bytes": 2580,
+    "sha256": "80bffb9073214d0417a799b8800ab3b389b26193a7865abeb22b9a4c62843ac7"
+  },
+  {
+    "path": "selected-source/lib/game/engine.ts",
+    "bytes": 19324,
+    "sha256": "4f11ed6874bbb20bcf7e7f7c8549ddba0d3a82b1a64148338c9f152b47c6b6b8"
+  },
+  {
+    "path": "selected-source/lib/game/lobby.ts",
+    "bytes": 9066,
+    "sha256": "e97edce0dcc4f2ae457e22bf8de2c0dac4aeddeed37387de666422ab2b3f1dbb"
+  },
+  {
+    "path": "selected-source/lib/game/modes.ts",
+    "bytes": 526,
+    "sha256": "2729f24701dab8a7ffd6f74342203ec456be9451657034d8ff14e7d49f46084b"
+  },
+  {
+    "path": "selected-source/lib/game/rack.ts",
+    "bytes": 698,
+    "sha256": "b29de8ecb4b7530a21edd20f2e85f4604b83f10071ab34fb53bf9b6d0e285b1f"
+  },
+  {
+    "path": "selected-source/lib/hza-backend-client.ts",
+    "bytes": 5095,
+    "sha256": "2bfebc7042471ba65c47bace04922c232849cc641f98287bb0facff37de83edc"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/HzaNetwork.Build.cs",
+    "bytes": 610,
+    "sha256": "45ce47c3e9a24759dc5b8f4aad3298c011b3dedf637c13dc1e44ac57c8cb9624"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaAuthClient.cpp",
+    "bytes": 19644,
+    "sha256": "1f15afb37a833b1067d5ff95cbac155b7b7862203cb8fb44663e949b5cc19d28"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaAuthClientTests.cpp",
+    "bytes": 20910,
+    "sha256": "3e8c74fb74ff3709969d14add33c2e6d94073883bb2d65229797f8a810ba999f"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaAuthPIETests.cpp",
+    "bytes": 6902,
+    "sha256": "90a78a75bb2ffd9dcefc12fc72d664003cf9383575ff5811d529c8752c779085"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaAuthScreen.cpp",
+    "bytes": 22330,
+    "sha256": "efe8541d80c69c951433ac2733311500f13b577160228d8b95db4876972e7795"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaFrontend.cpp",
+    "bytes": 3471,
+    "sha256": "6058a62bec441ff9592563d43ff85f6f2a112bd5fd5e213791144c54ffa2007e"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaHandInteractor.cpp",
+    "bytes": 11580,
+    "sha256": "56c1f8e6ffbfac0514b49ca0d50ff5a03039ad0a4a5fdda9763e688cdc2381e1"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaHandInteractorTests.cpp",
+    "bytes": 3071,
+    "sha256": "a0d7b02dd621d4b0a8bc236bf89d0eef6d32acd6d35fe00534b7a12f23157a7e"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaHandPIETests.cpp",
+    "bytes": 7647,
+    "sha256": "ff43f27dabe66ce407705f24cfe290e265ceabee340f3728a269ad6548b4a153"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaLobbyClient.cpp",
+    "bytes": 12772,
+    "sha256": "d19db0e9e249960c53cf50a425caec960cc4f2c943a3fd0f4a91ab59cf255bf5"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaLobbyClientTests.cpp",
+    "bytes": 7377,
+    "sha256": "6afa18f6a2c9f36c2ddeca1fd191f84591fa668e07661de193a63d81e154ed41"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaLobbyScreen.cpp",
+    "bytes": 24049,
+    "sha256": "4b6b78f76e446b294fc8aaddc679af11811a2d58555aaec38cd74adf3ab11e94"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaNetworkModule.cpp",
+    "bytes": 86,
+    "sha256": "dee4b6ff4f10fbef3666ff33d6a73837d51dc2be8fd52953795ac952fd0d2c1e"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaQueueCleanupTests.cpp",
+    "bytes": 2822,
+    "sha256": "d23044eb786ccaf622cde5648f5e8d9b160b6cf88503f41faab40f0f4c8eaa16"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaRoomClient.cpp",
+    "bytes": 14849,
+    "sha256": "cf79d9229610cd1d95dd7278bd45f0d2a55ad400385ae410e0fb62378f4cbf5b"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaRoomClientTests.cpp",
+    "bytes": 2939,
+    "sha256": "af2938fb6b5f912d34afb6d5d69789bb58a70827d7f173e93d07782f40bb1b1a"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaTableHUD.cpp",
+    "bytes": 7411,
+    "sha256": "0e68ebfd5be187643a4bffbede2f834cebff2d72069b273df7fa53234e857be6"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaTablePIETests.cpp",
+    "bytes": 7738,
+    "sha256": "85e199b605bf2433c846b751614c0093733ccecd06c1d2a692ed45870f080aa3"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Private/HzaTablePresentation.cpp",
+    "bytes": 14425,
+    "sha256": "bac44b60310599e7c2c47920707b1312cd0258f9781bd4a436d1e51df4e2cad5"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaAuthClient.h",
+    "bytes": 4586,
+    "sha256": "26bc7be73e6b61e48e3e69fc3aecf065a3d0c72827cd7443f0c66869064ce639"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaAuthScreen.h",
+    "bytes": 3667,
+    "sha256": "5fd779c6c20fdc07155154caa4a92fced95ee091b86329a011dda0012bfe67b3"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaFrontend.h",
+    "bytes": 1137,
+    "sha256": "c1f4dc3e25bff3c991e58b9c93ddabef955e0497deb78ec90e1ceb44e7b29955"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaHandInteractor.h",
+    "bytes": 3304,
+    "sha256": "b51567e451b623bc2c5ba494c1a8549c5e5d662f77ba70287f9e49db3d1b9c30"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaLobbyClient.h",
+    "bytes": 3151,
+    "sha256": "91aac5b13b56a61b7c9a007b5089a74ba787fb6ffdb017c84c53cdf12e2bc80a"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaLobbyScreen.h",
+    "bytes": 3501,
+    "sha256": "7943ad38650aba442346554b68e50e84a078fa70f604af8c8bf64224f61ffde6"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaRoomClient.h",
+    "bytes": 5808,
+    "sha256": "969e439d4d9b664e701257cb74f09a64765e96929f839280c07df79fccb280b2"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaTableHUD.h",
+    "bytes": 1188,
+    "sha256": "5e4ed37e3a1a5cae6bd632862a3463f77ce2e40fac7215694c21a56a4e1f443d"
+  },
+  {
+    "path": "selected-source/unreal/HzaNetwork/Public/HzaTablePresentation.h",
+    "bytes": 2761,
+    "sha256": "dbf7663c7d2987963704dc9a763ee7e55cb082b06ba594b28e84def5827387d0"
+  },
+  {
+    "path": "tests/backend-client.test.ts",
+    "bytes": 1954,
+    "sha256": "3fc11ab517e6b9d37d9cca8582289b9192698a1a24d63a627fbddfe9a3de218e"
+  },
+  {
+    "path": "tests/backend.test.ts",
+    "bytes": 9610,
+    "sha256": "dc58a641fde75762e25a2fe560647da5358d442ca141cfee1974ab5cb9332b44"
+  },
+  {
+    "path": "tests/engine.test.ts",
+    "bytes": 7399,
+    "sha256": "565b589a703cb552bb9d876e7512aa7ef8acc352cf4a6e87cc615190d03852ad"
+  },
+  {
+    "path": "tests/match-result.test.ts",
+    "bytes": 428,
+    "sha256": "d4a102c1f51fe65763af2c1543743b334b9ac2435aa48fac47843d1e9376347b"
+  },
+  {
+    "path": "tools/verify_demo.py",
+    "bytes": 3122,
+    "sha256": "6080f276f2794da0d05ab093141182005103c7e986267acd652e1b5ad7fe7e0b"
+  }
+]

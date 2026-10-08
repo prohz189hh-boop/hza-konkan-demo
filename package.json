@@ -1,0 +1,17 @@
+{
+  "name": "hza-konkan-engineering-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/engine.test.ts tests/backend-client.test.ts tests/match-result.test.ts",
+    "test:backend": "node --experimental-strip-types --test tests/backend.test.ts"
+  },
+  "devDependencies": {
+    "chess.js": "1.4.0",
+    "wrangler": "4.92.0"
+  }
+}

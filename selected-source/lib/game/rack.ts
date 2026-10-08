@@ -1,0 +1,3 @@
+/** Empty strings are intentional spaces in the two-row rack. */
+export function syncRack(previous:string[],handIds:string[]){const live=new Set(handIds),seen=new Set<string>();const next=previous.map(id=>{if(!id||!live.has(id)||seen.has(id))return '';seen.add(id);return id});for(const id of handIds)if(!seen.has(id)){const free=next.indexOf('');if(free>=0)next[free]=id;else next.push(id);seen.add(id)}return next}
+export function moveRack(previous:string[],id:string,to:number,size:number){const from=previous.indexOf(id);if(from<0||to<0||to>=size||from===to)return previous;const next=Array.from({length:size},(_,i)=>previous[i]||'');[next[from],next[to]]=[next[to],next[from]];return next}

@@ -1,0 +1,9 @@
+Default offline suite executed in the exported demo folder.
+Tests: 22
+Passed: 22
+Failed: 0
+Cancelled: 0
+Skipped: 0
+Run duration: 11.16 seconds
+Exit code: 0
+No production traffic or credentials required.
