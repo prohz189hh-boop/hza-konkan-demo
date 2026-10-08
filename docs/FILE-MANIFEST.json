@@ -25,44 +25,14 @@
     "sha256": "d30ffbec4dd7790f7338b9a643181875d33ca3dedce7c01404adee08a9a15861"
   },
   {
-    "path": "CONTRIBUTING.md",
-    "bytes": 610,
-    "sha256": "01a67949d60a8e7070cf9163932f55fc3ad9070e15757ba5cdb280e938a3e459"
-  },
-  {
-    "path": "LICENSE-NOTICE.md",
-    "bytes": 939,
-    "sha256": "8f51933fdad6b0e15f4f186ecdfc4c2b246fbc9c663c0bb48c56213dd43eee71"
-  },
-  {
-    "path": "PROJECT-ROADMAP.md",
-    "bytes": 1877,
-    "sha256": "7e676d77bf357bdf8d8962e2fb1f00a07ba4a892a416c5b1d5c7d30de8742962"
-  },
-  {
-    "path": "README.md",
-    "bytes": 9046,
-    "sha256": "ca32e1d1e8e40a262986356ddf2868de68d3aca693b794118a07abe84b89fa41"
-  },
-  {
-    "path": "SECURITY.md",
-    "bytes": 1529,
-    "sha256": "98cb7973edb68037de36a789b916f1e30c1674d526e78026b6552a4bcf13aa63"
-  },
-  {
-    "path": "TECH-STACK.md",
-    "bytes": 829,
-    "sha256": "c00c5d002c596aff364034b42cd7b90405d9bfb22b0a20b0c102fee29edf2cf6"
-  },
-  {
-    "path": "TESTING.md",
-    "bytes": 1904,
-    "sha256": "2c4133190089a30602719cd0315ca31f35858f3e5575b9f0ee63cfbf34562f50"
-  },
-  {
     "path": "assets-preview/README.md",
     "bytes": 393,
     "sha256": "1e639571d4fa8180b843d8ca0b19ac325b58d285c3dfd139b457a45aa8e3576e"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 610,
+    "sha256": "01a67949d60a8e7070cf9163932f55fc3ad9070e15757ba5cdb280e938a3e459"
   },
   {
     "path": "docs/BACKEND-PROTOCOL.md",
@@ -80,14 +50,24 @@
     "sha256": "ce9170a3702b2aac7e3de3b9623f6e68d20ee17a63b59ef2d54d67b3be7d67f3"
   },
   {
+    "path": "LICENSE-NOTICE.md",
+    "bytes": 939,
+    "sha256": "8f51933fdad6b0e15f4f186ecdfc4c2b246fbc9c663c0bb48c56213dd43eee71"
+  },
+  {
     "path": "package.json",
     "bytes": 478,
     "sha256": "f6c96f44805bfa7528ccd8bde9ec323158911e5267fe91597b67e8ebf289a199"
   },
   {
-    "path": "screenshots/README.md",
-    "bytes": 690,
-    "sha256": "66ee45bf226b295eec3ec5a10e6904fbb6432f2603d9ffa18d41ede3b2bd65e3"
+    "path": "PROJECT-ROADMAP.md",
+    "bytes": 1877,
+    "sha256": "7e676d77bf357bdf8d8962e2fb1f00a07ba4a892a416c5b1d5c7d30de8742962"
+  },
+  {
+    "path": "README.md",
+    "bytes": 9046,
+    "sha256": "ca32e1d1e8e40a262986356ddf2868de68d3aca693b794118a07abe84b89fa41"
   },
   {
     "path": "screenshots/native-lobby-historical.png",
@@ -95,9 +75,19 @@
     "sha256": "24003bda11ac23259525eaf57cdb59f75f6199e0dc455f7733a15383a9b9c720"
   },
   {
+    "path": "screenshots/README.md",
+    "bytes": 690,
+    "sha256": "66ee45bf226b295eec3ec5a10e6904fbb6432f2603d9ffa18d41ede3b2bd65e3"
+  },
+  {
     "path": "screenshots/unreal-viewport.png",
     "bytes": 1052113,
     "sha256": "bd4ee8f1bb663c27f637f805dc111c905a5edbea06a7937ece22eea7101e5a35"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 1529,
+    "sha256": "98cb7973edb68037de36a789b916f1e30c1674d526e78026b6552a4bcf13aa63"
   },
   {
     "path": "selected-source/backend/auth-confirmation.ts",
@@ -320,6 +310,16 @@
     "sha256": "dbf7663c7d2987963704dc9a763ee7e55cb082b06ba594b28e84def5827387d0"
   },
   {
+    "path": "TECH-STACK.md",
+    "bytes": 829,
+    "sha256": "c00c5d002c596aff364034b42cd7b90405d9bfb22b0a20b0c102fee29edf2cf6"
+  },
+  {
+    "path": "TESTING.md",
+    "bytes": 1904,
+    "sha256": "2c4133190089a30602719cd0315ca31f35858f3e5575b9f0ee63cfbf34562f50"
+  },
+  {
     "path": "tests/backend-client.test.ts",
     "bytes": 1954,
     "sha256": "3fc11ab517e6b9d37d9cca8582289b9192698a1a24d63a627fbddfe9a3de218e"
@@ -341,7 +341,7 @@
   },
   {
     "path": "tools/verify_demo.py",
-    "bytes": 3122,
-    "sha256": "6080f276f2794da0d05ab093141182005103c7e986267acd652e1b5ad7fe7e0b"
+    "bytes": 3161,
+    "sha256": "ffab74e3fe607dd690f2173d3ec11554bbfa4091bd51d5ca4341456cfcdac7a5"
   }
 ]

@@ -13,7 +13,7 @@ patterns={
 }
 findings=[];files=[]
 for p in sorted(root.rglob('*')):
-    if not p.is_file():continue
+    if '.git' in p.relative_to(root).parts or not p.is_file():continue
     rel=p.relative_to(root).as_posix()
     if p.name in {'SECRET-SCAN.json','FILE-MANIFEST.json'}:continue
     if any(x in blocked for x in p.relative_to(root).parts) or (p.name.startswith('.env') and p.name!='.env.example'):
