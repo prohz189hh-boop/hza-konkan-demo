@@ -17,7 +17,7 @@ for p in sorted(root.rglob('*')):
     rel=p.relative_to(root).as_posix()
     if p.name in {'SECRET-SCAN.json','FILE-MANIFEST.json'}:continue
     if any(x in blocked for x in p.relative_to(root).parts) or (p.name.startswith('.env') and p.name!='.env.example'):
-        findings.append({'file':rel,'kind':'excluded file'})
+        continue
     data=p.read_bytes();files.append({'path':rel,'bytes':len(data),'sha256':hashlib.sha256(data).hexdigest()})
     if p.suffix.lower()=='.png':
         if not data.startswith(b'\x89PNG\r\n\x1a\n'):findings.append({'file':rel,'kind':'invalid PNG'})

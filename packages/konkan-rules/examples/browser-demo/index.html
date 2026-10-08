@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HZA KONKAN rules playground</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10151d; color: #eef2f7; }
+    body { max-width: 1100px; margin: 0 auto; padding: 24px; } h1 { margin-bottom: 4px; }
+    .muted { color: #aab5c3; } .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .card { background: #1a2330; border: 1px solid #344356; border-radius: 12px; padding: 16px; }
+    button, select { background: #d7a65f; color: #17130d; border: 0; border-radius: 7px; padding: 8px 12px; font-weight: 700; cursor: pointer; }
+    button.secondary { background: #344356; color: #eef2f7; } button:disabled { opacity: .45; cursor: default; }
+    .tiles { display: flex; flex-wrap: wrap; gap: 6px; min-height: 54px; } .tile { background: #f4e6c6; color: #19202b; border-radius: 6px; padding: 8px 6px; min-width: 34px; text-align: center; border: 2px solid transparent; }
+    .tile.selected { border-color: #efb96f; transform: translateY(-3px); } .log { white-space: pre-wrap; background: #0d1117; padding: 10px; border-radius: 8px; min-height: 120px; }
+    @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } body { padding: 12px; } }
+  </style>
+</head>
+<body>
+  <h1>HZA KONKAN rules playground</h1>
+  <p class="muted">A local, dependency-free browser demonstration of the MIT-licensed deterministic rules package.</p>
+  <div class="grid">
+    <section class="card"><h2>Playable turn</h2><p id="status"></p><div id="hand" class="tiles"></div><p><button id="draw">Draw from deck</button> <button id="discard" class="secondary" disabled>Discard selected</button> <button id="reset" class="secondary">New game</button></p></section>
+    <section class="card"><h2>Rules inspector</h2><p>Choose three or more selected tiles to inspect a meld.</p><div id="meld" class="log"></div><p><button id="inspect" class="secondary">Validate selection</button> <button id="bot">Ask bot for an action</button></p></section>
+  </div>
+  <section class="card"><h2>Event log</h2><div id="log" class="log"></div></section>
+  <script type="module" src="./dist/app.js"></script>
+</body>
+</html>

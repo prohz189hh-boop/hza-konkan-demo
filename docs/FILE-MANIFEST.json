@@ -21,8 +21,8 @@
   },
   {
     "path": ".github/workflows/demo-tests.yml",
-    "bytes": 566,
-    "sha256": "92f5cdb01d4be241c16430b4abd8c8f3af8af12f49bbad3a8f8fa4db9b9b3993"
+    "bytes": 695,
+    "sha256": "6cdbe2bc8e44f0195b67832f1e4224e6c165d1fdd094be4f4761bc1efd3a4264"
   },
   {
     "path": ".gitignore",
@@ -43,6 +43,11 @@
     "path": "assets-preview/README.md",
     "bytes": 393,
     "sha256": "1e639571d4fa8180b843d8ca0b19ac325b58d285c3dfd139b457a45aa8e3576e"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 661,
+    "sha256": "c10a533dbfd49b0c4010493ef1ff07fb03da836247cf566bf614f72218ab1389"
   },
   {
     "path": "CODE_OF_CONDUCT.md",
@@ -85,14 +90,49 @@
     "sha256": "f6c96f44805bfa7528ccd8bde9ec323158911e5267fe91597b67e8ebf289a199"
   },
   {
+    "path": "packages/konkan-rules/examples/browser-demo/dist/app.js",
+    "bytes": 24207,
+    "sha256": "2167be548a791dda689c4d6707e2d4d4766bba40945cdf5103525018d08952a0"
+  },
+  {
+    "path": "packages/konkan-rules/examples/browser-demo/dist/app.js.map",
+    "bytes": 47650,
+    "sha256": "6edac82d7e360279f47a2743844a5666988eb440d0372071a27bc5c53b7769f7"
+  },
+  {
+    "path": "packages/konkan-rules/examples/browser-demo/index.html",
+    "bytes": 2284,
+    "sha256": "d9aa3d374f1799cabdaae24f86306425da109829d1a0545eb23d0fef541a0df0"
+  },
+  {
+    "path": "packages/konkan-rules/examples/browser-demo/main.ts",
+    "bytes": 2811,
+    "sha256": "a804164179359528f8ad676a43527c6d6579156234cd5eda236374c1f00e5e96"
+  },
+  {
+    "path": "packages/konkan-rules/examples/README.md",
+    "bytes": 367,
+    "sha256": "1e7ab23e562274ed345876c43a001a281b738667e9c91061b65337e7a6d365b2"
+  },
+  {
     "path": "packages/konkan-rules/LICENSE",
     "bytes": 1081,
     "sha256": "7a04822b9ce874a4d287083b3ed4e7e1de0ad73179e372c8a2eb4c4582289e0c"
   },
   {
+    "path": "packages/konkan-rules/package-lock.json",
+    "bytes": 15786,
+    "sha256": "3beea35603e98b28b7ad4fbd08c2809c39a495a31b6140d790ee5dc578c3ea74"
+  },
+  {
     "path": "packages/konkan-rules/package.json",
-    "bytes": 339,
-    "sha256": "c740d3e5fafd67da898d9bbfdf504ff14c4cdb8a3495b21b1197692706e2d4fd"
+    "bytes": 692,
+    "sha256": "8f47b33587d54255a6cc825b71d7fab0213cacf0d6893de5cbc0dc7ecef29714"
+  },
+  {
+    "path": "packages/konkan-rules/README.badini.md",
+    "bytes": 660,
+    "sha256": "fb383731c27993bfd4ad1cc0788ee11823d30d4e69f5e9e52c42fd1fec4ee31e"
   },
   {
     "path": "packages/konkan-rules/README.md",
@@ -100,9 +140,29 @@
     "sha256": "3ccc4f827eba6eb8293c5121007ff82ea95fb615c83178dce6eb9775c6797c17"
   },
   {
+    "path": "packages/konkan-rules/README.sorani.md",
+    "bytes": 973,
+    "sha256": "4a0f207984b3d0a62a1c8f4853045650f75d4feecb922f0462907e3b7b546892"
+  },
+  {
     "path": "packages/konkan-rules/RULES.md",
     "bytes": 718,
     "sha256": "1e273a305fb13bf81be147cfb84adb7c65af3e796aec35876c865f4482fca947"
+  },
+  {
+    "path": "packages/konkan-rules/scripts/build-demo.mjs",
+    "bytes": 533,
+    "sha256": "2c46f6201a43fb5ee13ee14a9ea4fd4a98ada12156a9f44cf741a8c954c42a41"
+  },
+  {
+    "path": "packages/konkan-rules/scripts/lint.mjs",
+    "bytes": 771,
+    "sha256": "a17ca67e23b8e372729853280fc8b69b0c873c7a79c321abb05266cc2e928b1e"
+  },
+  {
+    "path": "packages/konkan-rules/scripts/serve-demo.mjs",
+    "bytes": 878,
+    "sha256": "313b1c54982bc63955e867832aaff78520459c2bc82761ce453a49c3bacb6e76"
   },
   {
     "path": "packages/konkan-rules/src/bots.ts",
@@ -125,9 +185,19 @@
     "sha256": "b29de8ecb4b7530a21edd20f2e85f4604b83f10071ab34fb53bf9b6d0e285b1f"
   },
   {
+    "path": "packages/konkan-rules/tests/edge-cases.test.ts",
+    "bytes": 1818,
+    "sha256": "fc93c6d9bbd95615fcb2570640e3816c37d38cc092efca2fa69154c510ae74f8"
+  },
+  {
     "path": "packages/konkan-rules/tests/engine.test.ts",
     "bytes": 7355,
     "sha256": "0d7e45141957342ac007d987a49f41f72b8cb5fda296b69d1717046a29faf5ce"
+  },
+  {
+    "path": "packages/konkan-rules/tsconfig.json",
+    "bytes": 289,
+    "sha256": "7222c8abd6fa4fc310eff116c527f3c86aa09510f661d81b4bec43100f1a4d5a"
   },
   {
     "path": "PROJECT-ROADMAP.md",
@@ -136,8 +206,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 10215,
-    "sha256": "6580e733e7f44deb24e83f6f2446e9af1e97818455933b6a96707663dbb294fc"
+    "bytes": 10723,
+    "sha256": "4ad3358a4ebdefbb068feff276486b1154f51a722ebcc62e61d8efbcd5cad9e1"
   },
   {
     "path": "screenshots/native-lobby-historical.png",
@@ -156,8 +226,8 @@
   },
   {
     "path": "SECURITY.md",
-    "bytes": 1529,
-    "sha256": "98cb7973edb68037de36a789b916f1e30c1674d526e78026b6552a4bcf13aa63"
+    "bytes": 1938,
+    "sha256": "462f032994d3d657b8863dfa725f2e0bfe77186ece268920fa664c4439fd8d0b"
   },
   {
     "path": "selected-source/backend/auth-confirmation.ts",
@@ -386,8 +456,8 @@
   },
   {
     "path": "TESTING.md",
-    "bytes": 1904,
-    "sha256": "2c4133190089a30602719cd0315ca31f35858f3e5575b9f0ee63cfbf34562f50"
+    "bytes": 2376,
+    "sha256": "ed2dfe82e9c6c2ba0d7a81302da78c61917108af2e72632675744ed998596e59"
   },
   {
     "path": "tests/backend-client.test.ts",
@@ -411,7 +481,7 @@
   },
   {
     "path": "tools/verify_demo.py",
-    "bytes": 3161,
-    "sha256": "ffab74e3fe607dd690f2173d3ec11554bbfa4091bd51d5ca4341456cfcdac7a5"
+    "bytes": 3117,
+    "sha256": "5b5f34186017602499ad0b3bd64aa0e64baa21a5e77ef6bdee95f8a587cb552e"
   }
 ]

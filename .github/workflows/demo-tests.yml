@@ -25,7 +25,12 @@ jobs:
 
       - name: Run MIT rules package tests
         working-directory: packages/konkan-rules
-        run: npm test
+        run: |
+          npm install --ignore-scripts
+          npm test
+          npm run typecheck
+          npm run lint
+          npm run coverage
 
       - name: Verify sanitized export
         run: python3 tools/verify_demo.py

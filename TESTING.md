@@ -10,6 +10,19 @@ npm test
 
 This runs copied project tests against the exported code: tile/rule validity and legal actions, hidden-state views, WebSocket ownership/replacement/malformed events, HTTPS enforcement, and cumulative match winner logic. The exact result from this exported folder is in [DEMO-TEST-RESULTS.txt](docs/DEMO-TEST-RESULTS.txt).
 
+The standalone MIT rules package has its own checks:
+
+```sh
+cd packages/konkan-rules
+npm install
+npm test
+npm run typecheck
+npm run lint
+npm run coverage
+```
+
+The package test suite currently covers 24 cases. Node's built-in coverage report records line, branch, and function coverage without adding a paid service or a runtime dependency. The browser playground is built locally with `npm run build:demo` and is exercised manually; it is not deployed by this repository.
+
 ## Optional local Worker integration suite
 
 ```sh

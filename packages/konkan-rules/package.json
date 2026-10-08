@@ -4,8 +4,20 @@
   "description": "Deterministic TypeScript rules core for the HZA KONKAN tile game",
   "license": "MIT",
   "type": "module",
-  "engines": { "node": ">=22.13.0" },
+  "engines": {
+    "node": ">=22.13.0"
+  },
   "scripts": {
-    "test": "node --experimental-strip-types --test tests/engine.test.ts"
+    "test": "node --experimental-strip-types --test tests/*.test.ts",
+    "coverage": "node --experimental-strip-types --experimental-test-coverage --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "node scripts/lint.mjs",
+    "build:demo": "node scripts/build-demo.mjs",
+    "demo": "node scripts/serve-demo.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.8.3"
   }
 }

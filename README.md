@@ -109,6 +109,18 @@ The suite covers rule validity, legal-action rejection, hidden-state views, bot 
 
 An optional local Worker integration suite is documented in [TESTING.md](TESTING.md).
 
+## Try the rules playground locally
+
+The MIT package includes a local browser demonstration that uses the real rules engine, validates selected melds, shows rejected actions, and advances bot turns using redacted views. It is not deployed automatically:
+
+```bash
+cd packages/konkan-rules
+npm install
+npm run demo
+```
+
+Open <http://localhost:4173>. See [packages/konkan-rules/examples/README.md](packages/konkan-rules/examples/README.md).
+
 ## Repository map
 
 ```text
