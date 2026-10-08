@@ -13,6 +13,8 @@
 
 > **Engineering showcase.** This repository is a sanitized demo export from HZA KONKAN checkpoint `8c0b4f3` (2026-10-08). It contains real selected source, reproducible tests, architecture notes, and actual Unreal screenshots. It is intentionally **not** the full private production repository or a packaged game.
 
+> **Important scope note:** This repository contains a simplified browser-based rules playground and selected engineering source code. The browser playground exists only to demonstrate the MIT-licensed game rules engine. It is not the complete HZA KONKAN game, does not represent the final user interface or graphics, and is not a production multiplayer release. The actual HZA KONKAN project is being developed separately with Unreal Engine, C++, Supabase, Cloudflare Workers, and other technologies.
+
 ## What is HZA KONKAN?
 
 HZA KONKAN is a native multiplayer tile game being built with Unreal Engine, Supabase, and Cloudflare Durable Objects. The project focuses on responsive rack interaction, authoritative multiplayer, recipient-specific/private game state, secure account flows, and Kurdish-first localization plans across Sorani and Badini, with Arabic and English support planned alongside them.
@@ -27,15 +29,25 @@ Konkan is a tile game with deep roots in Kurdish social life. HZA KONKAN is an o
 
 The reusable rules package in [`packages/konkan-rules/`](packages/konkan-rules/) is released under MIT. It contains deterministic tile/rule logic, bot decisions over redacted views, modes, rack ordering, tests, and rules documentation. The rest of this repository is a reserved showcase under [`LICENSE-NOTICE.md`](LICENSE-NOTICE.md), including the Unreal source, backend integrations, screenshots, branding, Blender workflow, and deployment details.
 
-## Current project screenshots
+## Two different things are shown here
 
-### Native Unreal lobby
+### Technical browser demonstration
+
+The local browser playground is a deliberately small technical demonstration built on `packages/konkan-rules/`. It lets a developer inspect legal actions, draw and discard tiles, validate selected melds, see bot suggestions, and observe redacted views. Its controls, layout, styling, and feature set are test-oriented and should not be read as a preview of the final game.
+
+Run it locally with the instructions in [Try the rules playground locally](#try-the-rules-playground-locally). It is not deployed by this repository.
+
+### Actual Unreal development screenshots
+
+The screenshots below are clearly labeled development evidence from the separate native project. They show selected integration work and historical art passes, not a finished public release.
+
+#### Native Unreal lobby
 
 ![Native HZA KONKAN lobby running in Unreal](screenshots/native-lobby-historical.png)
 
 The native lobby foundation includes Regular/Turbo selection, real queue search/cancel, profile navigation, private-room navigation, native authentication, and Remember Me restoration. The pictured Moonlit background is a historical development art pass that the project owner has since chosen to retire; it is included here as evidence of real UI integration, not final art direction.
 
-### Real Unreal gameplay development viewport
+#### Real Unreal gameplay development viewport
 
 ![HZA KONKAN gameplay development viewport](screenshots/unreal-viewport.png)
 
@@ -51,6 +63,8 @@ This is an actual Unreal development scene, including real tile/rack actors and 
 | Lobby | Real account restore, mode selection, queue search/cancel, profile and private-room navigation |
 | Backend logic | Authoritative rules and recipient-specific state tests |
 | Demo test suite | **22 tests passing locally** with `npm test` |
+
+These are checked behaviors in the exported code. They do not mean the full Unreal game, production services, or a four-client multiplayer release is complete.
 
 See [TESTING.md](TESTING.md) for what each test proves — and what it does **not** prove yet.
 
@@ -179,6 +193,8 @@ See [AI-DEVELOPMENT.md](AI-DEVELOPMENT.md).
 - Private-room and multiplayer completion
 - Cosmetics/economy integration
 - Daily rewards and social systems
+
+The in-progress and planned items above are product roadmap entries, not claims about the browser demonstration. The browser package remains intentionally focused on reusable rules and validation.
 
 ### Planned release gates
 

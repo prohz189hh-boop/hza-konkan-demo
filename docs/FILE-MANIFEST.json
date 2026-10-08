@@ -81,8 +81,8 @@
   },
   {
     "path": "OPENAI-APPLICATION.md",
-    "bytes": 2110,
-    "sha256": "10cf7c15bfd04040b51a8dbe7730b5d207c5c85ff4b1d17e31cdc719db82da45"
+    "bytes": 3643,
+    "sha256": "c7e9821fa3b5c43561ab97e8205a9ec374faac23c3ab37a61a890644f99a2cde"
   },
   {
     "path": "package.json",
@@ -122,12 +122,12 @@
   {
     "path": "packages/konkan-rules/package-lock.json",
     "bytes": 15786,
-    "sha256": "3beea35603e98b28b7ad4fbd08c2809c39a495a31b6140d790ee5dc578c3ea74"
+    "sha256": "819a18faccc55964f1a3ad6a1e4b205c9816da4516f573cb45bcc3eece8e4740"
   },
   {
     "path": "packages/konkan-rules/package.json",
-    "bytes": 692,
-    "sha256": "8f47b33587d54255a6cc825b71d7fab0213cacf0d6893de5cbc0dc7ecef29714"
+    "bytes": 698,
+    "sha256": "a5f8f67882e246c502af71a400fa4e0aa1da4f7651a3294db9048a4da88938b3"
   },
   {
     "path": "packages/konkan-rules/README.badini.md",
@@ -206,8 +206,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 10723,
-    "sha256": "4ad3358a4ebdefbb068feff276486b1154f51a722ebcc62e61d8efbcd5cad9e1"
+    "bytes": 12392,
+    "sha256": "0c5146ef036446d6453f9541779ef6986b06e1a1418f475e02b445d868267df5"
   },
   {
     "path": "screenshots/native-lobby-historical.png",
